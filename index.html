@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descomplica Imóveis</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/logo-descomplica.png" alt="Logo Descomplica Imóveis" class="logo"/>
+    </header>
+
+    <main>
+    <!--HERO SECTION-->
+      <section class="hero">
+        <h1>Se Descomplica, fica mais fácil</h1>
+        <p>Encontre o imóvel ideal com facilidade, confiança e agilidade.</p>
+        <a href="#contato" class="botao-fale-conosco">Fale Conosco</a>
+     </section>
+
+     <section class="contato" id="contato">
+        <h2>Fale Conosco</h2>
+        <p>Fale com um de nossos corretores agora mesmo!</p>
+
+        <form action="https://formsubmit.co/lima.devtest@gmail.com" method="POST" class="form-contato">
+            
+            <div class="campo-form">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+            </div>
+
+            
+            <div class="campo-form">
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+
+            <div class="campo-form">
+                <input type="tel" name="WhatsApp" placeholder="Seu telefone">
+
+            </div>
+            <div class="campo-form">
+                <textarea name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+                
+            </div>
+            
+                
+            
+                <!--Campos ocultos para configurar envio-->
+                <input type="hidden" name="_subject" value="Novo contato pelo site Descomplica Imoveis">
+                <input type="hidden" name="_next" value="obrigado.html">
+                <input type="hidden" name="_captcha" value="false"> 
+
+                <div class="form-botao">
+                    <button type="submit">Enviar</button>
+                </div>
+
+        </form>
+    </section>
+</main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Descomplica Imóveis</h4>
+                <p>Simplicaficando o caminho até o seu novo lar com confiança e agilidade.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Links úteis</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col"> 
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="img/icons/icon-instagram.svg" alt="Instagram" /></a>
+                    <a href="#"><img src="img/icons/icon-facebook.svg" alt="Facebook" /></a>
+                    <a href="#"><img src="img/icons/icon-whatsapp.svg" alt="WhatsApp" /></a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2025 Descomplica Imóveis. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>

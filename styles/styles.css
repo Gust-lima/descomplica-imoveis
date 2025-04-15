@@ -142,28 +142,46 @@ main{
     margin: 0 auto 20px;
     text-align: left;
 }
+.creci{
+    text-align: end;
+}
 .footer-col ul{
     list-style: none;
-    padding: 0;
+    padding: 0; 
+    
+}
+.footer-col ul li {
+    margin: 8px 0;
+}
+.footer-col ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3 aese;
+
 }
 .footer-col ul li a:hover{
     color: #FFFFFF;
     
 }
-.social-icons{
+.social-icons {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     margin-top: 10px;
+   
 }
-.social-icons  img {
-    width: 24px;
-    height: 24px;
-    transition: trasforme 0.3s;
 
+
+.social-icons svg {
+    width: 32px;
+    height: 32px;
+    fill:#FFD700;
+   
 }
-.social-icons img:hover{
-    transform: scale(1.2);
-
+.social-icons a:hover svg{
+      transition: trasforme 0.3s;
+      transform: scale(1.2);
+      
 }
 .footer-copy {
     margin-top: 20px;

@@ -1,0 +1,80 @@
+
+.botao-fale-conosco {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #FFD700; 
+    color: #000000;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+  
+}
+.botao-fale-conosco:hover {
+    background-color: #e5c100;
+}
+
+.contato{
+    padding: 60px 20px;
+    
+    color: #FFD700;
+    text-align: center;
+
+}
+
+.contato h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.contato p {
+    font-size: 1rem;
+    margin: 30px;
+    color: #d3d3d3;
+}
+.form-contato{
+    flex: 1 1 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px ;
+}
+.campo-form{
+    margin-bottom: 15px;
+}
+.campo-form input,
+.campo-form textarea{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}  
+.form-contato button {
+    padding: 12px;
+    background-color: #FFD700;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .form-botao {
+    text-align: center;
+    margin-top: 20px;
+  }
+.form-botao button {
+    padding: 12px 30px;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-botao button:hover {
+
+    background-color: #e5c100;
+  }

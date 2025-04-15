@@ -126,42 +126,68 @@ main{
   }
 .footer{ 
     background-color: #001F3F;
-    color: #FFD700;
+    color: white;
     text-align: center;
-    padding: 30px 20px;
+    padding: 3rem 2rem 1rem;
     font-size: 0.95rem;
     width: 100%;
-    border-top: 2px solid #FFD700;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.4);
-}
-.footer-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220,1fr));
-    gap: 20px;  
-    max-width: 1200px;
-    margin: 0 auto 20px;
-    text-align: left;
-}
-.creci{
-    text-align: end;
-}
-.footer-col ul{
-    list-style: none;
-    padding: 0; 
     
 }
-.footer-col ul li {
-    margin: 8px 0;
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;  
+   margin-bottom:1rem;
+   
 }
-.footer-col ul li a {
-    color: #ffd700;
+.footer h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #FFD700; /* dourado */
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+.creci {
+    margin-top: 1.5rem;
+    padding: 0.5rem 0;
+    text-align: center; /* Centralizado para harmonizar */
+    font-size: 0.9rem;
+}
+.creci a {
+    color: #FFD700; /* Dourado para combinar com os ícones */
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3 aese;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.3s ease;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+}
+.creci a:hover {
+    background-color: rgba(255, 215, 0, 0.1); /* Fundo dourado translúcido */
+    transform: scale(1.05);
+    border: 1px solid #FFD700;
+}
+.creci a::before {
+    content: "✓";
+    font-size: 1rem;
+    color: #4CAF50; /* Verde para contrastar com o dourado */
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+  }
 
+.footer ul li a {
+  color: #d3d3d3; /* cinza claro para contraste */
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: #FFFFFF;
+    color: #FFD700;
     
 }
 .social-icons {
@@ -170,7 +196,6 @@ main{
     margin-top: 10px;
    
 }
-
 
 .social-icons svg {
     width: 32px;

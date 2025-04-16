@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descomplica Imóveis</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="assets/css/base/styles.css">
 </head>
+
 <body>
     <header class="header">
         <img src="img/logo-descomplica.png" alt="Logo Descomplica Imóveis" class="logo"/>
@@ -124,10 +125,18 @@
         </div>
         <p>&copy; 2025 Descomplica Imóveis. Todos os direitos reservados.</p>
         <div class="creci">
-            <a href="https://www.crecirj.conselho.net.br/form_pesquisa_cadastro_geral_site.php">CRECI - 76.432</a> 
+            <a href="https://www.crecirj.conselho.net.br/form_pesquisa_cadastro_geral_site.php"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Ver registro no CRECI-RJ"
+            >
+            <img src="img/creci_76432.png" alt="selo CRECI-RJ" class="selo-creci">
+            <span id="creci-numero" onclick="copiaCreci()" title="Clique para copiar">CRECI-RJ: 76.432</span>
+
+            </a> 
         </div>
         
     </footer>
-    
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

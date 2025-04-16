@@ -78,6 +78,9 @@ main{
     margin-bottom: 10px;
     color: #FFD700;
 }
+.info-contato h3 {
+    margin-top: 10px;
+}
 .info-contato a {
     text-decoration: none;
     color: #d3d3d3;

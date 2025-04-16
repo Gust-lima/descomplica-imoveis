@@ -1,0 +1,15 @@
+/* Telas menores (celulares) */
+@media (max-width: 768px) {
+    /* Ajustes específicos para mobile */
+  }
+  
+  /* Telas médias (tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Ajustes para tablets */
+  }
+  
+  /* Telas grandes (desktops) */
+  @media (min-width: 1025px) {
+    /* Se quiser, também pode ajustar algo aqui */
+  }
+  

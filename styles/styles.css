@@ -245,6 +245,9 @@ main{
     fill:#FFD700;
    
 }
+.icon{
+    border-radius: 50%;
+}
 .social-icons a:hover svg{
       transition: trasforme 0.3s;
       transform: scale(1.2);
